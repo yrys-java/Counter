@@ -4,6 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#81C784"
     tools:context=".MainActivity">
 
     <TextView
@@ -12,6 +14,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="0000"
+        android:textColor="#FFFFFF"
         android:textSize="60sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -27,6 +30,7 @@
         android:layout_marginTop="65dp"
         android:text="Button"
         android:onClick="button"
+        android:background="#E8F5E9"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"

@@ -4,7 +4,7 @@ package com.example.counter;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.util.Log;
+
 import android.view.View;
 import android.widget.TextView;
 
@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void button(View view) {
-        if (counter < 1000) {
+        if (counter < 10000) {
             counter += 1;
             display(counter);
         }

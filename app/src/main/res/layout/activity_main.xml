@@ -28,7 +28,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="65dp"
-        android:text="Button"
+        android:text="COUNT"
         android:onClick="button"
         android:background="#E8F5E9"
         app:layout_constraintBottom_toBottomOf="parent"
